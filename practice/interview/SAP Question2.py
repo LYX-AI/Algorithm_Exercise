@@ -54,7 +54,7 @@ def is_palindromic(sub_matrix):
 
 当 if sub_matrix[i][j] != sub_matrix[-(i + 1)][-(j + 1)]: 这条语句被执行时，它检查了第 (i, j) 个元素是否与其对称元素不相等，如果这个条件为真，那么子矩阵不是回文的，并且函数可以返回 False。
             '''
-            if sub_matrix !=sub_matrix[-(i+1)][-(j+1)]:
+            if sub_matrix[i][j] !=sub_matrix[-(i+1)][-(j+1)]:
                 return False
         return True
     

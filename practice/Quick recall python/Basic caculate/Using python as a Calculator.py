@@ -17,6 +17,7 @@ print("the average is",average_score)
 way2:
     tip:
         Using the statistics module
+        in the statistics can use the mean function to caculate the average
 '''
 import statistics
 

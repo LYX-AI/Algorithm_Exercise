@@ -4,6 +4,12 @@
 
 这个题目可以帮你复习字符串的基本操作，如获取长度和索引访问
 
+about the python slice
+ +---+---+---+---+---+---+
+ | P | y | t | h | o | n |
+ +---+---+---+---+---+---+
+ 0   1   2   3   4   5   6
+-6  -5  -4  -3  -2  -1
 '''
 user_input=input("please enter the number")
 

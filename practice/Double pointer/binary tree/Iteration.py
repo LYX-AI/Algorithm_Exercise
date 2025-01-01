@@ -23,7 +23,7 @@ class Solution:
     def midTraversal(self,root:TreeNode)->list[int]:
         if not root:
             return []
-        stack =[root]
+        stack =[]
         result=[]
         cur=root
         while cur or stack:
@@ -34,3 +34,18 @@ class Solution:
                 cur=stack.pop()
                 result.append(cur.val)
                 cur=cur.right
+        return result
+
+    def postorTraversal(self,root:TreeNode)->list[int]:
+        if not root:
+            return []
+        stack=[root]
+        result=[]
+        while stack:
+            cur=stack.pop()
+            result.append(cur.val)
+            if cur.left:
+                stack.append(cur.left)
+            if cur.right:
+                stack.append(cur.right)
+        return result[::-1]

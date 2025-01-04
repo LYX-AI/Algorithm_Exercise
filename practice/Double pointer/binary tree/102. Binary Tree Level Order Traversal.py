@@ -52,3 +52,13 @@ class Solution(object):
                     queue.append(cur.right)
             result.append(level)
         return result
+
+'''
+tip:
+queue = collections.deque([root])
+初始化一个队列元素并且把里面塞入一个root元素
+
+还有就是这里的
+root:Optional[TreeNode]
+Optional的意思就是这个root元素可以是TreeNode 类型也可以是None类型
+'''

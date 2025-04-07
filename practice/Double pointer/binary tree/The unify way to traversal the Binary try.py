@@ -34,7 +34,7 @@ class Solution:
                 stack.append(node)
                 stack.append(None)
             else:
-                stack.pop()
+                node=stack.pop()
                 result.append(node.value)
         return result
 
@@ -45,14 +45,15 @@ class Solution:
             stack.append(root)
         while stack:
              node=stack.pop()
-             if node.right:
-                 stack.append(node.right)
-             stack.append(node.value)
-             stack.append(None)
-             if node.left:
-                 stack.append(node.left)
+             if node != None:
+                if node.right:
+                     stack.append(node.right)
+                stack.append(node)
+                stack.append(None)
+                if node.left:
+                    stack.append(node.left)
              else:
-                 stack.pop()
+                 node=stack.pop()
                  result.append(node.value)
         return result
 
@@ -63,12 +64,13 @@ class Solution:
             stack.append(root)
         while stack:
             node=stack.pop()
-            stack.append(node.value)
-            stack.append(None)
-            if node.right:
-                stack.append(node.right)
-            if node.right:
-                stack.append(node.left)
+            if node !=None:
+                stack.append(node)
+                stack.append(None)
+                if node.right:
+                    stack.append(node.right)
+                if node.left:
+                    stack.append(node.left)
             else:
                 stack.pop()
                 result.append(node.value)

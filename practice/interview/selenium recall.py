@@ -95,3 +95,20 @@ def driver():
 def test_example(driver):
     driver.get("http://example.com")
     assert 'Example' in driver.title
+
+#显示等待
+driver.implicitly_wait(10)
+#隐示等待
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+
+WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.ID, "username"))
+)
+
+#弹窗处理：
+alert = driver.switch_to.alert
+alert.accept()      # 点击确认
+alert.dismiss()     # 点击取消
+alert.text          # 获取弹窗文本

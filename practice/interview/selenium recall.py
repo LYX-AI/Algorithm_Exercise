@@ -96,9 +96,9 @@ def test_example(driver):
     driver.get("http://example.com")
     assert 'Example' in driver.title
 
-#显示等待
-driver.implicitly_wait(10)
 #隐示等待
+driver.implicitly_wait(10)
+#显示等待
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By

@@ -73,3 +73,22 @@ class Solution:
             p1=p1.next
             p2=p2.next
         return p1
+###############################################
+class Solution:
+    def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        fast=head
+        slow=head
+        while fast and fast.next:
+            fast=fast.next.next
+            slow=slow.next
+            if slow == fast:
+                break
+        else:
+            return None
+            index1=slow
+            index2=head
+            while index1!=index2:
+                index1=index1.next
+                index2=index2.next
+            return index1
+

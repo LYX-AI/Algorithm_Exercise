@@ -96,6 +96,15 @@ def test_example(driver):
     driver.get("http://example.com")
     assert 'Example' in driver.title
 
+import pytest
+
+@pytest.mark.parametrize("input_num, expected", [(1, 2), (2, 3), (3, 4)])
+def test_increment(input_num, expected):
+    result = input_num + 1
+    assert result == expected
+@pytest.mark.skip(reason="Skipping this test function as it depends on external service which is currently down")
+def test_skip_example():
+    assert 1 + 1 == 2
 #隐示等待
 driver.implicitly_wait(10)
 #显示等待

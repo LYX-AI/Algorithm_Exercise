@@ -57,3 +57,4 @@ def check_bgf_sctp_status(process_context):
     else:
         return True, "所有BGF节点状态为 ENABLED"
 
+

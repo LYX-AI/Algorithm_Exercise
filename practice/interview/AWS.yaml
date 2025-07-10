@@ -59,3 +59,28 @@ Outputs:
   PublicIP:
     Description: EC2 Public IP
     Value: !GetAtt MyEC2Instance.PublicIp
+
+
+
+    Mappings:
+      EnvConfig:
+        Dev:
+          InstanceType: "t3.micro"  # 开发环境用小实例
+          AMI: "ami-dev-123"
+        Prod:
+          InstanceType: "t3.small"  # 生产环境用较大实例
+          AMI: "ami-prod-456"
+
+    Parameters:
+      Environment:
+        Type: String
+        AllowedValues: [ "Dev", "Prod" ]
+        Default: "Dev"
+
+    Resources:
+      EC2Instance:
+        Type: AWS::EC2::Instance
+        Properties:
+          InstanceType: !FindInMap [ EnvConfig, !Ref Environment, InstanceType ]  # 动态获取实例类型
+          ImageId: !FindInMap [ EnvConfig, !Ref Environment, AMI ]  # 动态获取AMI
+          KeyName: !Ref KeyPairName  # 引用参数传入的密钥对

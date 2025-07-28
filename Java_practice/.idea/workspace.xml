@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5716d721-9ec2-4418-9df6-1cb56d905f14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/FindAllAnagramsInaString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/SlidingWindowMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/SubarraySumEqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Binary tree/!124. Binary Tree Maximum Path Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Binary tree/236. Lowest Common Ancestor of a Binary Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/graph theory/797All Paths From Source to Target.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/graph theory/200. Number of Islands(BFS).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/graph theory/200. Number of Islands(DFS).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/114. Flatten Binary Tree to Linked List.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/Binary tree/114. Flatten Binary Tree to Linked List.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/560. Subarray Sum Equals K.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/！560. Subarray Sum Equals K.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/Construct Binary Tree from Preorder and Inorder Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/Binary tree/Construct Binary Tree from Preorder and Inorder Traversal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +73,11 @@
           <url>file://$PROJECT_DIR$/java_practice/Algorithm exercises/src/FindAllAnagramsInaString.java</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java_practice/Algorithm exercises/src/MinimumWindowSubstring.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

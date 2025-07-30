@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5716d721-9ec2-4418-9df6-1cb56d905f14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/graph theory/200. Number of Islands(BFS).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/graph theory/200. Number of Islands(DFS).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/TS2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/graph theory/994. Rotting Oranges.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,17 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FindAllAnagramsInaString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubarraySumEqualsK.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/code practice/Algorithm_Exercise/Java_practice&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindAllAnagramsInaString.executor": "Run",
+    "Application.MaximumSubarray.executor": "Run",
+    "Application.SubarraySumEqualsK.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/code practice/Algorithm_Exercise/Java_practice"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5716d721-9ec2-4418-9df6-1cb56d905f14" name="Changes" comment="" />

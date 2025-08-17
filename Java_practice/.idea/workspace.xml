@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5716d721-9ec2-4418-9df6-1cb56d905f14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/17. Letter Combinations of a Phone Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/39. Combination Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/ProductofArrayExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/40. Combination Sum II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/131. Palindrome Partitioning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/interview/TS2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/TS2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
   "keyToString": {
     "Application.FindAllAnagramsInaString.executor": "Run",
     "Application.MaximumSubarray.executor": "Run",
+    "Application.ProductofArrayExceptSelf.executor": "Run",
     "Application.RotateArray.executor": "Run",
     "Application.SubarraySumEqualsK.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",

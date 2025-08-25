@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5716d721-9ec2-4418-9df6-1cb56d905f14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/ProductofArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/40. Combination Sum II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/131. Palindrome Partitioning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/FirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/491. Non-decreasing Subsequences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/RestoreIPAddresses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/interview/TS2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/TS2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/238. Product of Array Except Self.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/238. Product of Array Except Self.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +46,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FindAllAnagramsInaString.executor": "Run",
-    "Application.MaximumSubarray.executor": "Run",
-    "Application.ProductofArrayExceptSelf.executor": "Run",
-    "Application.RotateArray.executor": "Run",
-    "Application.SubarraySumEqualsK.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/code practice/Algorithm_Exercise/Java_practice"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FindAllAnagramsInaString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductofArrayExceptSelf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubarraySumEqualsK.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code practice/Algorithm_Exercise/Java_practice&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5716d721-9ec2-4418-9df6-1cb56d905f14" name="Changes" comment="" />

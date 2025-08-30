@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5716d721-9ec2-4418-9df6-1cb56d905f14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/FirstMissingPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/491. Non-decreasing Subsequences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/RestoreIPAddresses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/SetMatrixZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/46. Permutations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_practice/ProductofArrayExceptSelf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_practice/ProductofArrayExceptSelf.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/238. Product of Array Except Self.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/238. Product of Array Except Self.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/491. Non-decreasing Subsequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/491. Non-decreasing Subsequences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/RestoreIPAddresses.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/RestoreIPAddresses.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +48,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FindAllAnagramsInaString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumSubarray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductofArrayExceptSelf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubarraySumEqualsK.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/code practice/Algorithm_Exercise/Java_practice&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindAllAnagramsInaString.executor": "Run",
+    "Application.MaximumSubarray.executor": "Run",
+    "Application.ProductofArrayExceptSelf.executor": "Run",
+    "Application.RotateArray.executor": "Run",
+    "Application.SetMatrixZeroes.executor": "Run",
+    "Application.SubarraySumEqualsK.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/code practice/Algorithm_Exercise/Java_practice"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SetMatrixZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetMatrixZeroes" />
+      <module name="Java_practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SetMatrixZeroes" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5716d721-9ec2-4418-9df6-1cb56d905f14" name="Changes" comment="" />

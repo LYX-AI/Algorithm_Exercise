@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5716d721-9ec2-4418-9df6-1cb56d905f14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/SetMatrixZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/46. Permutations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/List/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/List/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/List/SquaresofaSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_practice/Algorithm exercises/src/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/List/27. Remove Element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/List/704. Binary Search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/interview/likou100/List/977. Squares of a Sorted Array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_practice/ProductofArrayExceptSelf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_practice/ProductofArrayExceptSelf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/238. Product of Array Except Self.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/238. Product of Array Except Self.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/491. Non-decreasing Subsequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/491. Non-decreasing Subsequences.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/RestoreIPAddresses.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/RestoreIPAddresses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/46. Permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/interview/likou100/Backtracking search method/46. Permutations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -50,11 +53,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BinarySearch.executor": "Run",
     "Application.FindAllAnagramsInaString.executor": "Run",
     "Application.MaximumSubarray.executor": "Run",
     "Application.ProductofArrayExceptSelf.executor": "Run",
+    "Application.RemoveElement.executor": "Run",
     "Application.RotateArray.executor": "Run",
     "Application.SetMatrixZeroes.executor": "Run",
+    "Application.SpiralMatrix.executor": "Run",
+    "Application.SquaresofaSortedArray.executor": "Run",
     "Application.SubarraySumEqualsK.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -64,7 +71,38 @@
     "last_opened_file_path": "E:/code practice/Algorithm_Exercise/Java_practice"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code practice\Algorithm_Exercise\Java_practice\java_practice\Algorithm exercises\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SquaresofaSortedArray">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="List.BinarySearch" />
+      <module name="Java_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="List.RemoveElement" />
+      <module name="Java_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SetMatrixZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SetMatrixZeroes" />
       <module name="Java_practice" />
@@ -72,8 +110,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpiralMatrix" />
+      <module name="Java_practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquaresofaSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="List.SquaresofaSortedArray" />
+      <module name="Java_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquaresofaSortedArray" />
+        <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.SetMatrixZeroes" />
       </list>
     </recent_temporary>

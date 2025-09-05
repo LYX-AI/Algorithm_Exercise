@@ -1,0 +1,20 @@
+package List;
+
+public class RemoveElement {
+    public int removeElement(int[] nums, int val){
+        int slow =0;
+        for (int fast=0;fast<nums.length;fast++){
+            if (nums[fast]!=val){
+                nums[slow]=nums[fast];
+                slow++;
+            }
+        }
+        return slow;
+    }
+    public static void main(String[]atgs){
+        RemoveElement solution=new RemoveElement();
+         int[] nums = {3,2,2,3};
+         int val = 3;
+        System.out.println(solution.removeElement(nums,val));
+    }
+}
